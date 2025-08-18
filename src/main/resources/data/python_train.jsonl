@@ -1,0 +1,12 @@
+{"text": "def my_function(a, b):\n    return a + b"}
+{"text": "class MyClass:\n    def __init__(self, name):\n        self.name = name\n\n    def greet(self):\n        return f\"Hello, {self.name}!\""}
+{"text": "for i in range(10):\n    if i % 2 == 0:\n        print(i)"}
+{"text": "my_list = [1, 2, 3]\nmy_dict = {'a': 1, 'b': 2}"}
+{"text": "def find_max(numbers):\n    return max(numbers)"}
+{"text": "import os\n\nprint(os.getcwd())"}
+{"text": "try:\n    with open('file.txt', 'r') as f:\n        print(f.read())\nexcept FileNotFoundError:\n    print('File not found')"}
+{"text": "my_tuple = (1, 'hello', True)"}
+{"text": "def factorial(n):\n    if n == 0:\n        return 1\n    else:\n        return n * factorial(n - 1)"}
+{"text": "import requests\n\nresponse = requests.get('https://api.github.com')"}
+{"text": "def is_prime(n):\n    if n < 2:\n        return False\n    for i in range(2, int(n**0.5) + 1):\n        if n % i == 0:\n            return False\n    return True"}
+{"text": "my_variable = 'Hello, world!'"}
