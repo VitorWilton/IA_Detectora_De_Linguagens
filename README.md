@@ -1,3 +1,7 @@
+Com certeza. Faz sentido atualizar a documentação do projeto para refletir as mudanças que fizemos.
+
+Aqui está o README.md revisado, que agora considera os novos arquivos de treino train.jsonl (Java) e python_train.jsonl que geramos.
+
 Detector de Linguagens de Programação com IA
 Este projeto é uma aplicação Java que implementa um agente de inteligência artificial para classificar a linguagem de programação de um dado trecho de código. Ele expõe uma API RESTful que, ao receber um trecho de código, retorna se a linguagem é Java ou Python.
 
@@ -35,14 +39,8 @@ Apache Maven
 Clone o repositório:
 git clone [URL_DO_SEU_REPOSITORIO]
 
-Baixe os datasets:
-
-Dataset de Python: agentcode.jsonl
-
-Dataset de Java: train.csv
-
-Configure a estrutura de dados:
-Crie a pasta src/main/resources/data e coloque os arquivos agentcode.jsonl e train.csv dentro dela.
+Verifique os Datasets de Treino:
+Os arquivos de treino (train.jsonl para Java e python_train.jsonl para Python) já estão na pasta src/main/resources/data.
 
 Execute a aplicação:
 No terminal, navegue até a pasta raiz do projeto e execute o comando:
@@ -62,4 +60,4 @@ Exemplo de requisição com código Python:
 
 Bash
 
-curl -X POST -H "Content-Type: application/json" -d "{\"code\":\"def hello_world()
+curl -X POST -H "Content-Type: application/json" -d "{\"code\":\"def hello_world(): pass\"
