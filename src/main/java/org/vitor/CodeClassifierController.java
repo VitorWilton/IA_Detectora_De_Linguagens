@@ -9,10 +9,10 @@ import java.util.Map;
 @RestController
 public class CodeClassifierController {
 
-    private final org.vitor.ia.CodeClassifierService classifierService;
+    private final org.vitor.CodeClassifierService classifierService;
 
     @Autowired
-    public CodeClassifierController(org.vitor.ia.CodeClassifierService classifierService) {
+    public CodeClassifierController(org.vitor.CodeClassifierService classifierService) {
         this.classifierService = classifierService;
     }
 

@@ -1,4 +1,4 @@
-package org.vitor.ia;
+package org.vitor;
 
 import com.fasterxml.jackson.databind.JsonNode;
 import com.fasterxml.jackson.databind.ObjectMapper;
